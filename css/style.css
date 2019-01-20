@@ -1,0 +1,292 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.col-1 {
+    width: 8.33% !important;
+}
+.col-2 {
+    width: 16.66% !important;
+}
+.col-3 {
+    width: 25% !important;
+}
+.col-4 {
+    width: 33.33% !important;
+}
+.col-5 {
+    width: 41.66% !important;
+}
+.col-6 {
+    width: 50% !important;
+}
+.col-7 {
+    width: 58.33% !important;
+}
+.col-8 {
+    width: 66.66% !important;
+}
+.col-9 {
+    width: 75% !important;
+}
+.col-10 {
+    width: 83.33% !important;
+}
+.col-11 {
+    width: 91.66% !important;
+}
+.col-12 {
+    width: 100% !important;
+}
+[class*="col-"] {
+    float: left;
+    padding: 10px;
+}
+.img-res {
+    width: 100%;
+    height: auto;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+body {
+    font-family: sans-serif;
+    background-color: #E0F2F7;
+    width: 100%;
+    min-height: 100vh;
+	z-index: 0;
+}
+.container {
+    width: 1200px !important;
+    margin: 0 auto;
+}
+header {
+    height: 70px;
+    line-height: 70px;
+}
+.logo {
+    width: 150px;
+    height: 58px;
+    float: left;
+}
+.menu {
+    list-style: none;
+    float: right;
+}
+.menu li {
+    display: inline-flex;
+    line-height: 70px;
+}
+.menu li a {
+    padding: 10px 20px;
+    text-decoration: none;
+}
+.icon {
+    padding: 10px;
+    display: inline-flex;
+}
+.icon i {
+    padding: 5px;
+}
+
+
+/* MAIN */
+main{
+	min-height: 100vh;
+	width: 100%;
+}
+
+.slide{
+	min-height: 400px;
+	width: 100% !important;
+	position: relative;
+	overflow: hidden;
+}
+
+.slide img{
+    width: 100% !important;
+    height: auto;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.welcome{
+	position: absolute;
+	top: 10px;
+	right: 250px;
+	z-index: 1;
+	min-height: 200px;
+	width: 500px;
+	
+}
+.welcome>.img-welcome{
+	width: 250px !important;
+	height: 131px;
+	display: block;
+	left: 10px;
+}
+.welcome h1{
+	position: absolute;
+	top: 138px !important;
+	left: -146px;
+	font-size: 40px;
+	text-align: center;
+}
+.welcome p{
+	position: absolute;
+	top: 197px;
+	left: -202px;
+}
+.contain1{
+	min-height: 400px;
+}
+.cont_con{
+	padding: 0 20px;
+	margin: 10px 0;
+	border-right: 1px solid #000;
+	min-height: 344px;
+}
+.contain1 .col-4:last-child .cont_con{
+	border: none;
+}
+.cont_con>img{
+	height: 215px;
+}
+.cont_con p, .cont_con h3{
+	text-align: center;
+	margin: 10px;
+}
+
+.contain2{
+	width: 100%;
+	
+}
+.accordion{
+	height: 300px;
+	overflow: hidden;
+	
+}
+
+
+/*    ACCORDION    */
+
+.radio{
+	display: none;
+}
+.lb{
+	width: 100%;
+	display: block;
+	min-height: 40px;
+	line-height: 40px;
+	color:rgba(0,27,156,1.00);
+	padding: 10px;
+	cursor: pointer;
+	border: 3px;
+	text-align: left;
+	background:rgba(131,131,131,0.37);
+}
+.lb span{
+	float: right;
+}
+.decription{
+	transition: all .5s cubic-bezier(.42, 0, .58, 1);
+	width: 100%;
+	visibility: hidden;
+	height: 0;
+	opacity: 0;
+	text-align: left;
+	background: white;
+	overflow: hidden;
+}
+#i0:checked ~#d0,#i1:checked ~#d1, #i2:checked ~#d2, #i3:checked ~#d3{
+	visibility: visible;
+	opacity: 1;
+	height: 455px;
+	display: block;
+	padding: 10px;
+	height: 30px;
+}
+
+/*KIEMTRATIENGANH*/
+.kiemtratienganh{
+	background-image:url('https://acet.edu.vn/wp-content/themes/acet/assets/images/testonline/testonline-adv.png');
+	height: 200px;
+}
+.info{
+	padding: 15px;
+}
+.info h3{
+	font-size: 25px;
+}
+.info h5{
+	font-size: 14px;
+	margin: 10px 0;
+}
+.info a{
+	transition: 1s;
+	animation-name: chop;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+	
+	font-size: 16px;
+}
+@keyframes chop{
+	0%{
+		color: red;
+	}
+	50%{
+		color: blue;
+	}
+	100%{
+		color: red;
+	}
+}
+
+/*MAIN BOT*/
+.info_bot_1 h1, .info_bot_2 h1{
+	text-align: center;
+	margin: 20px;
+	color: red;
+}
+.info_bot_2{
+
+}
+.info_bot_2 ul, .info_bot_2 h4{
+	list-style: none;
+	margin: 40px;
+}
+
+/*FOOTER*/
+footer{
+	width: 100%;
+	min-width: 300px;
+}
+.footer1{
+	height: 200px;
+	width: 100%;
+	background-image: url("../img/h1.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #fff;
+	padding: 30px;
+	word-spacing: 3px;
+}
+.footer1 h2{
+	padding: 25px;
+}
+.footer1 input#email[type=text]{
+	padding: 10px;
+	margin: 10px;
+	height: 20px;
+}
+.footer2{
+	height: 100px;
+	width: 100%;
+	background: red;
+	padding: 30px;
+}

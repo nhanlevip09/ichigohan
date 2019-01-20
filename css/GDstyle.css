@@ -1,0 +1,226 @@
+*, html, body{
+	box-sizing: border-box;
+	padding: 0;
+	margin:0;
+}
+#menu
+{
+	height: 70px;	
+	padding-right: 1%;
+	margin: 0px;
+}
+#menu ul
+{
+	list-style-type: none;
+	text-align: right;
+
+}
+#menu li{
+	
+	display: inline-block;
+	
+
+
+}
+a {
+  text-decoration: none;
+  display: block;
+  margin-right: 15px;
+  float: top;
+
+ 
+}
+ a:hover {
+  color:#990000;
+}
+
+#menu nav, #menu nav ul, #menu nav ul li{
+	margin: 0 auto;
+}
+#icon{
+	text-align: right;
+	margin-left: : 40px;
+	
+}
+#Welcome
+{    
+	background-image: url("../img/nhat.jpg");
+   min-height: 400px;
+}
+
+#welcome-cont
+{    
+     float: right;
+	font-style: blod;
+	font-family: arial;
+	color: #990000;
+	min-height:400px;
+	width: 600px;
+	font-size: 18px;
+	margin-right: 3%;
+
+}
+#content {
+	background-color: #9cd9f0;
+	min-height: 302px;
+	padding: 30px;
+	width: 100%;
+	display: flex;
+	
+}
+#left{
+	
+	margin-left: 8%;
+	margin-top: 5px;
+	padding-right:  2.25%; 
+	width: 33%;
+	min-height: 305px;
+    float:left;
+	text-align: left;
+	border-right: solid 1px;
+
+   
+	
+}
+	
+
+
+#center{
+	margin-left: 2.25%;
+	padding-right:  2.25%; 
+	margin-top: 5px;
+	width: 33%;
+	min-height: 305px;
+    float:left;
+	text-align: left;
+	border-right: solid 1px;
+	  
+	
+	
+}
+#right{
+	margin-left: 2.25%;
+		margin-right: 8%;
+		margin-top: 5px;
+	 width: 33%;
+	 min-height: 305px;
+     float:left;
+	text-align: left;
+	
+}
+
+#content2{
+	background-color: #E0F2F7;
+	height: 400px;
+	margin-left: 8%;
+	margin-right: 8%;
+
+}
+.content2.style
+{   
+	float: left;
+	margin-top: 5px;
+	margin-left: 
+}
+
+.documment{
+	font-size: 20px;
+	font-family: Arial;
+
+	   
+}
+//////
+#divinf
+{
+	min-height: 302px;
+	padding: 30px;
+	width: 100%;
+	display: flex;
+	margin-left: 8%;
+	margin-right: 8%;
+}
+
+.contest-online-adv{
+	height: 200px;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	position: relative;
+	margin-top: 25px;
+}
+.info{
+/*	position: absolute;
+	top: 10px;
+	left: 10px;*/
+}
+
+.clear{
+	clear: both;
+}
+
+#seach
+{     padding-top: 4%;
+	 background-image: url( "../img/h1.jpg");
+	 opacity: 0.75;
+	 height: 200px;
+	 border-image-repeat: initial;
+	 background-position:  center;
+	 background-size: cover;
+	 color: white;
+	 text-align: center;
+	 padding-left: 10%;
+
+}
+.buttonnew:hover{
+	background-color: red;
+}
+
+.button{
+	position: relative;
+	display: inline-block;
+}
+
+#divinf{
+	
+	margin-left: 8%;
+	margin-right: 8%;
+	border-bottom: solid 1px;
+}
+
+.clear{
+	clear: both;
+
+}
+.information{
+	min-width: 100%;
+	min-height: 415px;
+	background-color: #87CEEB;
+}
+
+#map{
+	margin-left: 80px;
+	padding-top: 70px;
+	text-align: center;
+	width: 55%;
+	float: left;
+	padding: 20px;
+	margin-top: 30px;
+}
+#gmail{
+	padding-right: 120px;
+	padding-top: 50px;
+	width: 40%;
+	float: right;
+	
+}
+
+.footer{
+	font-size: 15px;
+	position: absolute;
+	background-color: red;
+	background-size: cover;
+	height: 50px;
+	width: 100%;
+	text-align: center;
+}
+
